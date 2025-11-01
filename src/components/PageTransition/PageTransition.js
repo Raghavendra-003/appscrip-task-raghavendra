@@ -17,7 +17,6 @@ export default function PageTransition() {
   return (
     <div className={styles.overlay}>
       <div className={styles.content}>
-        <div className={styles.text}>Loading...</div>
       </div>
     </div>
   );
