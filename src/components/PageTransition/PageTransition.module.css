@@ -1,0 +1,23 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--transition-bg, linear-gradient(135deg,#ff6a00,#ee0979));
+  transform: scaleY(0);
+  transform-origin: bottom;
+  z-index: 9999;
+  pointer-events: none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.content { text-align:center; color:#fff; }
+.text {
+  opacity:0;
+  transform: translateY(20px);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing:1px;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
